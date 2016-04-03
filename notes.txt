@@ -1,0 +1,8 @@
+/* Afficher pion*/
+Appliquer_Surface( (BORD_TERRAIN-(pion->w/2))+TAILLE_CASE*(8-1), (BORD_TERRAIN-(pion->h/2))+TAILLE_CASE*(8-1), pion, ecran );
+/* Etapes */
+-Faire un echequier en struct 
+-Afficher les pions.
+-Rendre les pions selectionnables
+-Gérer les déplacements
+-Verifier si un deplacement est possible
